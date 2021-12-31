@@ -22,6 +22,7 @@ web: node index.js(your app.js file or server.js file or index.js file).
         "npm": "6.14.15",
         "node": "14.18.0"
     },
+    
     "scripts": {
 
         "test": "echo \"Error: no test specified\" && exit 1",
@@ -29,32 +30,54 @@ web: node index.js(your app.js file or server.js file or index.js file).
     },
     
 ## write this command at terminal in your project
->>cd SimpleCrud_MongoDB
+
+>> cd SimpleCrud_MongoDB
 
     heroku login -i 
     
     write your heroku email and password
->>>now use git
+    
+>> now use git
 
     git init
+    
     git add .
+    
     git commit -m "for erro"
->>>create heroku app from cmd
+    
+>> create heroku app from cmd
+
     heroku create vrcakeshop(heroku app name)
->>> now push your mongoDB app on heroku
+    
+>> now push your mongoDB app on heroku
+
     git push heroku master(master or main)
->>> go to heroku website 
+    
+>> go to heroku website 
+
     refresh your heroku page and go to settings
+    
     and click on button Reveal Config vars
+    
     Here add enviromental variables like ::
+    
     key : value pair
+    
     mongourl : connection string  (paste both from .env file)
+    
     click on Add button and Refresh page
->>> start heroku
+    
+>> start heroku
+ 
     heroku restart
->>> open Heroku
+    
+>> open Heroku
+>> 
     heroku open
+    
 ## your heroku app is ready
->>>you can open your app throug heroku website 
+
+>> you can open your app throug heroku website 
+
     just go to your app and click on open button
 
