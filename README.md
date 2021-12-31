@@ -2,15 +2,22 @@
 
 ## My(VRCaakeShop) HerokuApp link 
 https://vrcakeshop.herokuapp.com/
+
 https://vrcakeshop.herokuapp.com/display
 
 
->>> first create Heroku account 
-in project changes make at index.js file
->>>exp.listen(process.env.PORT || 8000, () => console.log("server running ${port}!"));
->>>create a procfile and write in it 
+## first create Heroku account 
+
+>>in project changes make at index.js file
+
+exp.listen(process.env.PORT || 8000, () => console.log("server running ${port}!"));
+
+>>create a procfile and write in it 
+
 web: node index.js(your app.js file or server.js file or index.js file).
->>>make channges at package.json file add this lines
+
+>>make channges at package.json file add this lines
+
 "engines": {
         "npm": "6.14.15",
         "node": "14.18.0"
@@ -20,11 +27,15 @@ web: node index.js(your app.js file or server.js file or index.js file).
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "node index.js"
     },
-##write this command at terminal in your project
->>>cd SimpleCrud_MongoDB
+    
+## write this command at terminal in your project
+>>cd SimpleCrud_MongoDB
+
     heroku login -i 
+    
     write your heroku email and password
 >>>now use git
+
     git init
     git add .
     git commit -m "for erro"
