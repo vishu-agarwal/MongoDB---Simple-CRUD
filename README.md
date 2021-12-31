@@ -1,6 +1,6 @@
 # MongoDB---Simple-CRUD
 
-## My(VRCaakeShop) HerokuApp link 
+## My(VRCakeShop) HerokuApp link 
 https://vrcakeshop.herokuapp.com/
 
 https://vrcakeshop.herokuapp.com/display
